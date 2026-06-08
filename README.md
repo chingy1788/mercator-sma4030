@@ -42,3 +42,16 @@ To reset and put the Mercator driver box into pairing mode:
 2. Turn the power **ON and OFF 3 times** in quick succession.
 3. The light will pulse or flash slowly, indicating it is searching for a coordinator.
 4. Enable pairing mode in Zigbee2MQTT (Join / Permit Join).
+
+---
+
+## Custom Device Icon in Zigbee2MQTT
+
+To use the custom device image [`sma4030.png`](sma4030.png) in the Zigbee2MQTT frontend:
+1. Create a folder named `device_icons` inside your Zigbee2MQTT data configuration directory (e.g., `/config/zigbee2mqtt/device_icons/` on Home Assistant).
+2. Copy the [`sma4030.png`](sma4030.png) image into that folder.
+3. Open the Zigbee2MQTT Frontend in your browser.
+4. Click on your paired Mercator device, select the **Settings** tab.
+5. In the **Icon** field, enter `device_icons/sma4030.png` and save.
+
+
